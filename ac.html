@@ -27,7 +27,7 @@
 
   <aside name="top">
     <h2>Assignment Calculator</h2>
-    <p class="f6">Works with Chrome--since it's "date" field is accessible (keyboard navigable).</p>
+    <p class="f6">Choose your assignment.</p>
 
     <input type="radio" id="essay" value="essay" v-model="picked">
     <label for="essay">Research Assignment / Essay</label>
@@ -53,11 +53,11 @@
             Roadmap to Writing a Research Essay
           </h2>
 
-          <p class="fw1 f5 mt0 mb3">
+         <p class="fw1 f5 mt0 mb3">
             The following series of steps were obtained from our<br />
             <a class="link hover-orange" href="https://www.youtube.com/watch?v=6SozOjFc30c">video: Roadmap to Research</a><br />
             View more 'research help' videos on our Youtube channel <a class="link hover-orange" href="https://www.youtube.com/user/LibraryGeorgian/videos?sort=dd&view=0&shelf_id=0">youtube.com/LibraryGeorgian</a>
-          </p>
+          </p> 
         </article>
         <steps v-bind:stepobject='ressay1'></steps>
         <steps v-bind:stepobject='ressay2'></steps>
